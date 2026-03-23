@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import ContactSection from "./components/ContactSection";
 import ClubSection from "./components/ClubSection";
 import GallerySection from "./components/GallerySection";
 import ProjectsSection from "./components/ProjectsSection";
@@ -5,6 +7,24 @@ import "./index.css";
 import logo from "./assets/logo.png";
 
 function App() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const id = hash.replace("#", "");
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    };
+
+    handleScroll();
+    window.addEventListener("hashchange", handleScroll);
+
+    return () => window.removeEventListener("hashchange", handleScroll);
+  }, []);
+
   return (
     <div>
       <nav className="nav">
@@ -42,9 +62,9 @@ function App() {
       </section>
 
       <ProjectsSection />
-
       <GallerySection />
       <ClubSection />
+      <ContactSection />
     </div>
   );
 }
