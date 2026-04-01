@@ -46,9 +46,24 @@ function App() {
           <p>
             Innovación, tecnología y aprendizaje para transformar ideas en proyectos.
           </p>
-          <a href="#proyectos" className="boton">
-            Ver proyectos
-          </a>
+          <div className="botones-hero">
+  <a href="#proyectos" className="boton">
+    Ver proyectos
+  </a>
+
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSeJjAFw2WyoXHZExQy637wtnlMalYA6k8R5MB_PFTrZdQvnkw/viewform?usp=header"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="boton"
+  >
+    Sumate al Club
+  </a>
+</div>
+
+<p className="texto-inscripcion">
+  Completá el formulario de inscripción y sumate a las actividades del Club Technex10.
+</p>
         </div>
       </header>
 
