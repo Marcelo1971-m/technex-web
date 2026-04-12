@@ -351,3 +351,15 @@ body {
 .contact-link:hover {
   background-color: #1d4ed8;
 }
+.card-sponsor {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-sponsor:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

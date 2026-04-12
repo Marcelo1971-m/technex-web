@@ -3,6 +3,7 @@ import ContactSection from "./components/ContactSection";
 import ClubSection from "./components/ClubSection";
 import GallerySection from "./components/GallerySection";
 import ProjectsSection from "./components/ProjectsSection";
+import SponsorsSection from "./components/SponsorsSection";
 import "./index.css";
 import logo from "./assets/logo.png";
 
@@ -79,6 +80,7 @@ function App() {
       <ProjectsSection />
       <GallerySection />
       <ClubSection />
+      <SponsorsSection />
       <ContactSection />
     </div>
   );
