@@ -45,11 +45,17 @@ export default function SponsorsSection() {
               borderRadius: "12px",
             }}
           >
-            <img
-  src="/images/sponsors/electronica-formosa.png"
-  alt="Electrónica Formosa"
-  style={{ maxHeight: "100px", objectFit: "contain" }}
-/>
+            <a
+  href="https://www.instagram.com/electronicaformosa"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="/images/sponsors/electronica-formosa.png"
+    alt="Electrónica Formosa"
+    style={{ maxHeight: "100px", objectFit: "contain", cursor: "pointer" }}
+  />
+</a>
           </div>
           <h3 style={{ color: "#222" }}>Electrónica Formosa</h3>
         </div>
@@ -66,11 +72,17 @@ export default function SponsorsSection() {
               borderRadius: "12px",
             }}
           >
-            <img
-  src="/images/sponsors/wdm.png"
-  alt="W.D.M."
-  style={{ maxHeight: "100px", objectFit: "contain" }}
-/>
+            <a
+  href="https://www.instagram.com/wdmaker.ok/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="/images/sponsors/wdm.png"
+    alt="W.D.M."
+    style={{ maxHeight: "100px", objectFit: "contain", cursor: "pointer" }}
+  />
+</a>
           </div>
           <h3 style={{ color: "#222" }}>W.D.M.</h3>
         </div>
