@@ -34,7 +34,9 @@ export default function GallerySection() {
         <img src="/images/robots/robot12.jpg" alt="Robot 12" style={estilo} className="img-galeria"/>
         <img src="/images/robots/robot13.jpg" alt="Robot 13" style={estilo} className="img-galeria"/>
         <img src="/images/robots/robot14.jpg" alt="Robot 14" style={estilo} className="img-galeria"/>
-    
+
+       <img src="/images/club/sponsor1.jpg" alt="Actividad con WDM" style={estilo} className="img-galeria" />
+       <img src="/images/club/sponsor2.jpg" alt="Trabajo con sponsor WDM" style={estilo} className="img-galeria" />
       </div>
     </section>
   );
